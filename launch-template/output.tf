@@ -1,4 +1,4 @@
 
 output "aws_launch_template" {
-  value = "aws_launch_template.sam-lt.id"
+  value = aws_launch_template.sam-lt.id
 }
